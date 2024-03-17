@@ -1,9 +1,32 @@
 import React from "react";
+import logo from '../../assets/logo.png';
+import './style.css'
 
-function Menu(){
-    return(
+
+function Menu() {
+    return (
         <header>
-            <h1>Barra do Menu</h1>
+            <nav className="container">
+                <img className="logo" src={logo} alt="Logo" />
+                <ul className="menu-topics">
+                    <li>
+                        Como fazer /
+                    </li>
+                    <li>
+                        Ofertas /
+                    </li>
+                    <li>
+                        Depoimentos /
+                    </li>
+                    <li>
+                        Vídeos /
+                    </li>
+                    <li>
+                        Meu carrinho
+                    </li>
+
+                </ul>
+            </nav>
         </header>
     )
 }
