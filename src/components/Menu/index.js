@@ -6,26 +6,29 @@ import './style.css'
 function Menu() {
     return (
         <header>
-            <nav className="container">
-                <img className="logo" src={logo} alt="Logo" />
-                <ul className="menu-topics">
-                    <li>
-                        Como fazer /
-                    </li>
-                    <li>
-                        Ofertas /
-                    </li>
-                    <li>
-                        Depoimentos /
-                    </li>
-                    <li>
-                        Vídeos /
-                    </li>
-                    <li>
-                        Meu carrinho
-                    </li>
-
-                </ul>
+                <div>
+                    <img className="logo" src={logo} alt="Logo" />
+                </div>
+                <nav className="container">
+                <li className="menu-topics">
+                    <a href="/">Como fazer</a>
+                    /
+                </li>
+                <li>
+                    <a href="/">Ofertas</a>
+                    /
+                </li>
+                <li>
+                    <a href="/">Depoimentos</a>
+                    /
+                </li>
+                <li>
+                    <a href="/">Vídeos</a>
+                    /
+                </li>
+                <li>
+                    <a href="/">Meu Carrinho</a>
+                </li>
             </nav>
         </header>
     )
